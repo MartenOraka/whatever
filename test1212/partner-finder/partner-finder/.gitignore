@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+*.log
+
+# Images users upload at runtime
+backend/uploads/
