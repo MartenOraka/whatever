@@ -15,6 +15,8 @@ export default function Layout() {
     <div className="app-shell">
       <aside className="app-sidebar">
         <NavLink to="/discover" className="sidebar-brand"><Logo /></NavLink>
+        {/* Phones hide the sidebar footer (where the desktop logout lives), so they get their own logout in the top bar. */}
+        <button className="logout-button mobile-logout" onClick={logout} aria-label="Log out">Log out <span aria-hidden="true">↪</span></button>
         <div className="sidebar-label">DISCOVER</div>
         <nav className="sidebar-nav">
           <NavLink to="/discover"><span className="nav-icon">⌕</span><span>Discover</span></NavLink>

@@ -491,3 +491,9 @@ html { scroll-behavior: smooth; }
 .my-profile-hero > .role-badges { margin: 14px 20px 4px; }
 .my-profile-identity .handle { margin: 0 8px; }
 @media (max-width: 760px) { .my-profile-hero > .role-badges { margin-left: 16px; margin-right: 16px; } }
+
+/* Logout on phones: the sidebar footer with the desktop logout button is hidden there, so show one in the top bar. */
+.mobile-logout { display: none; }
+@media (max-width: 760px) {
+  .mobile-logout { display: flex; align-items: center; gap: 6px; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); min-height: 44px; padding: 0 4px; font-size: 13px; font-weight: 700; }
+}

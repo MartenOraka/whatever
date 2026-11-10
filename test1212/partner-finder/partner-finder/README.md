@@ -38,7 +38,7 @@ Demo of real-time chat without a browser: `npm run test:chat` (backend folder).
 2. **Discover**: switch Gaming / Creative. Each card shows why you match. *Interested* sends a connection request, *Message* sends a request with a first message, *Skip* removes the person forever.
 3. **Requests**: accept or decline connection requests and (separately listed) message requests. Disconnect from connections here.
 4. **Chats**: real-time messages, unread badge, typing indicator, online indicator, paginated history ("Load older messages").
-5. Log out from the top bar on any page.
+5. Log out on any page: the ↪ button at the bottom of the sidebar (desktop) or "Log out" in the top bar (phones).
 
 ## Recommendation algorithm
 Eligibility is decided in SQL: complete profile, not yourself, not dismissed, not connected, no earlier request, and inside **your** maximum distance (bounding box + Haversine distance in km).
