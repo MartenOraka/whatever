@@ -1,0 +1,60 @@
+{
+  "_help": "Copy this file to team-profiles.json, put YOUR details in, then run:  npm run db:seed:team   (safe to run again and again)",
+  "defaultPassword": "qrew-demo-123",
+  "profiles": [
+    {
+      "email": "you@example.com",
+      "nickname": "Your Name",
+      "username": "yourname",
+      "bio": "Developer who loves co-op games and building small tools. Looking for an artist to make a game together.",
+      "city": "Tallinn",
+      "radius_km": 300,
+      "crew_roles": ["developer", "gamer"],
+      "links": ["https://github.com/your-name"],
+      "avatar": "you.png",
+      "banner": "you-banner.jpg",
+      "gaming": {
+        "games": [
+          { "name": "Counter-Strike 2", "playtime_hours": 1200, "rank": "Gold Nova", "extra": { "faceit_level": 5 } },
+          { "name": "Helldivers 2", "playtime_hours": 150 }
+        ],
+        "platforms": ["PC"],
+        "modes": ["Ranked", "Co-op"],
+        "goals": ["Find a regular squad"],
+        "availability": ["weekday-evening", "weekend-evening"],
+        "tags": ["Team player", "Looking for regular games"],
+        "steam_url": null
+      },
+      "creative": {
+        "skills": ["Programming", "Game Design"],
+        "interests": ["Indie games", "Game jams", "Open source"],
+        "tools": ["VS Code", "Unity", "Git"],
+        "experience": "intermediate",
+        "roles": ["Designer", "3D Artist"],
+        "goals": ["Join a game jam", "Finish a portfolio project"],
+        "tags": ["Looking for a collaborator", "Programmer"]
+      }
+    },
+    {
+      "email": "partner@example.com",
+      "nickname": "Partner Name",
+      "username": "partnername",
+      "bio": "3D artist and designer. Blender every day, always up for a game jam.",
+      "city": "Tallinn",
+      "radius_km": 300,
+      "crew_roles": ["artist", "ideator"],
+      "avatar": "partner.png",
+      "banner": "partner-banner.jpg",
+      "gaming": { "games": [{ "name": "Valorant", "rank": "Platinum" }, { "name": "Minecraft" }], "platforms": ["PC", "PlayStation"], "modes": ["Casual"], "goals": ["Have fun"], "availability": ["weekend-day"], "tags": ["Casual player"] },
+      "creative": {
+        "skills": ["3D Modeling", "Graphic Design", "Animation"],
+        "interests": ["Indie games", "Game jams", "Pixel art"],
+        "tools": ["Blender", "Unreal Engine", "Photoshop"],
+        "experience": "advanced",
+        "roles": ["Programmer"],
+        "goals": ["Join a game jam"],
+        "tags": ["Looking for a project", "3D Artist"]
+      }
+    }
+  ]
+}
